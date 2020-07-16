@@ -1,2 +1,35 @@
 # docker-ubuntu
+
+![Docker Pulls](https://img.shields.io/docker/pulls/tavarespatrick/ubuntu)
+
 Build and Push an Ubuntu docker container with an ubuntu user
+
+## Information
+
+The base docker image :
+
+  * [ubuntu:latest](https://hub.docker.com/r/_/ubuntu/)
+  
+What are installed in this container :
+
+  * sudo
+  * make
+  * curl
+  * vim
+  * jq
+  
+## Installation
+
+You can clone this project and build with docker command :
+
+```
+git clone https://github.com/ptavares/docker-ubuntu.git
+cd docker-ubuntu
+docker build -t tavarespatrick/ubuntu .
+```
+
+You can build directly from the [GitHub project](https://github.com/ptavares/docker-ubuntu/) :
+
+```
+docker build -t tavarespatrick/ubuntu github.com/ptavares/docker-ubuntu.git
+
