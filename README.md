@@ -1,5 +1,6 @@
 # docker-ubuntu
 
+![Build](https://github.com/ptavares/docker-ubuntu/workflows/Build/badge.svg?branch=master)
 ![Docker Pulls](https://img.shields.io/docker/pulls/tavarespatrick/ubuntu)
 ![GitHub](https://img.shields.io/github/license/ptavares/docker-ubuntu)
 
