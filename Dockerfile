@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+LABEL maintainer="tavarespatrick"
 
 RUN apt-get update -yq \
 && apt-get install sudo curl vim jq make -yq \
