@@ -1,6 +1,7 @@
 # docker-ubuntu
 
 ![Docker Pulls](https://img.shields.io/docker/pulls/tavarespatrick/ubuntu)
+![GitHub](https://img.shields.io/github/license/ptavares/docker-ubuntu)
 
 Build and Push an Ubuntu docker container with an ubuntu user
 
